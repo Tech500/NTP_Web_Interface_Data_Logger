@@ -1,4 +1,6 @@
-"# NTP_Web_Interface_Data_Logger 
+"# NTP_Web_Interface_Data_Logger  --Updated 07/07/2020 to use LittleFS; in-place of depreciated SPIFFS.
+Als, located all variables that require editing, into one file:  "variableInput.h"
+
 
 Current Features "NTP_Web_Interface_Data_Logger.ino".
 

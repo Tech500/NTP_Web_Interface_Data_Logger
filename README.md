@@ -1,6 +1,6 @@
-"# NTP-Time-Synced-Web-Interface" 
+"# NTP_Web_Interface_Data_Logger 
 
-Current Features "NTP_Time-Synced_Web_Interface.ino".
+Current Features "NTP_Web_Interface_Data_Logger.ino".
 
 1. NTP Server; used for 15 minute time interval, date-time stamping, and dayofweek (every 6th
 day, "LOG.TXT" file gets renamed to keep file size manageable. Every Saturday "LOG.TXT" gets
@@ -40,7 +40,7 @@ graphs on one web page. Graphs are created from Iframes provided by "ThingSpeak.
 11. Free, "000webhost powered by HOSTINGER" is used for second website.
 
 12. Two websites,one sketch: "NTP_Time-Synced_Web_Interface.ino."
-https://bit.ly/2DDV5zV --Desktop server (port forwarded) --this one has a file
+http://weather-1.ddns.net/Weather --Desktop server (port forwarded) --this one has a file
 browser, selected file can be downloaded.
 https://observations-weather.000webhostapp.com/ Hosted website --no file browser due to hosted
 domain server restrictions (free hosting service). Hosted server "sleeps" one hour every 24
@@ -52,14 +52,3 @@ Server is online 24/7; except during periods of testing.
 Server is a "RobotDyn WiFi D1 R2" with 32 MiB Flash Memory. Development Board, purchased from
 "RobotDyn.com" and GY-BME280 breakout board, purchased from "Ebay.com" ; both are required for
 project. Sensor is located indoors, currently.
-
-Developement board is Arduino friendly; can be programed using the Arduino IDE.
-Under $15.00 with shipping, is the project cost for Development Board --$4.29 and one,
-GY-BME280 breakout board, sensor for Barometric Pressure, Humidity, and Temperature --cost $4.77.
-
-------------------------------------------------------------------------------------
-Compiling tabbed version source:
-
-Make sure all files are in a single folder; with Arduino IDE 1.8.5 installed and ESP8266 Community version 2.4.1 installed, double click "NTP_Timed-Synced_Web_Interface.ino."  Compile as you would a non-tabbed source code.
-
-Advantage of tabbed compiling is for complex, lengthy source code --there is less scrolling to find code.   

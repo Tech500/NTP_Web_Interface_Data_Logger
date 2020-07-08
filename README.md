@@ -42,9 +42,9 @@ graphs on one web page. Graphs are created from Iframes provided by "ThingSpeak.
 11. Free, "000webhost powered by HOSTINGER" is used for second website.
 
 12. Two websites,one sketch: "NTP_Time-Synced_Web_Interface.ino."
-http://weather-1.ddns.net/Weather --Desktop server (port forwarded) --this one has a file
+http://weather-1.ddns.net/Weather --ESP8266 basedserver (port forwarded) --this one has a file
 browser, selected file can be downloaded.
-https://observations-weather.000webhostapp.com/ Hosted website --no file browser due to hosted
+https://observations-weather.000webhostapp.com/ Domain, Hosted website --no file browser due to hosted
 domain server restrictions (free hosting service). Hosted server "sleeps" one hour every 24
 hours.
 -----------------------------------------------------------------------------------

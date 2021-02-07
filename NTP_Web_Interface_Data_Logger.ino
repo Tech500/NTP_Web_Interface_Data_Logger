@@ -22,7 +22,7 @@
 //
 //                       Project is Open-Source, requires one Barometric Pressure sensor, BME280 and RobotDyn, ESP8266 based developement board.
 //
-//                       https://bit.ly/2DDV5zV Project web page  --Servered from ESP8266, RobotDyn WiFi D1 development board
+//                       http://weather-1.ddns.net/Weather Project web page  --Servered from ESP8266, RobotDyn WiFi D1 development board
 //
 //                       https://bit.ly/2M5NBs0  Domain, Hosted web page
 //

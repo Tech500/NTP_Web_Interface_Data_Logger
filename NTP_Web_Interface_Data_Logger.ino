@@ -1464,7 +1464,7 @@ void webInterface()
 
     HTTPClient http;    //Declare object of class HTTPClient
 
-    http.begin(client, "http://observeredweather.000webhostapp.com/dataCollector.php");      //Specify request destination
+    http.begin(client, "YourDomainServer/dataCollector.php");      //Specify request destination
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");  //Specify content-type header
 
     int httpCode = http.POST(data);   //Send the request
